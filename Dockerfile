@@ -1,5 +1,5 @@
 FROM alpine:3.10
-label maintainer="Elementar Sistemas <contato@elementarsistemas.com.br>"
+label maintainer="Hilton W. Silva - hilton@hiltonws.com"
 
 RUN apk --no-cache add bash py3-pip && pip3 install --no-cache-dir awscli
 ADD watch /watch
